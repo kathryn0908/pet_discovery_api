@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  life_span: MyString
+  name: MyString
+  temperment: MyString
+  weight: MyString
+  url: MyString
+  user: one
+
+two:
+  life_span: MyString
+  name: MyString
+  temperment: MyString
+  weight: MyString
+  url: MyString
+  user: two
