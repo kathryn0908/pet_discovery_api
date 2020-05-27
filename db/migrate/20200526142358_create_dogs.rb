@@ -5,7 +5,7 @@ class CreateDogs < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :temperment
       t.string :weight
-      t.string :url
+      
     
 
       t.timestamps
