@@ -1,8 +1,13 @@
 class DogsController < ApplicationController
     before_action :find_dog_by_id, only: [:show, :update, :destroy]
     def index
-        @dogs = Dog.all 
-        render json: @dogs
+        if params[:search]
+            @dog = Dog.where("name LIKE ?", "%#{params[:search]}%")
+            render json: @dog
+          else
+            @dog = Dog.all 
+            render json: @dog
+          end
     end
 
     def show

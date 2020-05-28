@@ -43,3 +43,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rest-client", "~> 2.1"
 
 gem "pry", "~> 0.13.1"
+
+gem "jwt", "~> 2.2"
